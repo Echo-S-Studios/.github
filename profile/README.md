@@ -40,11 +40,6 @@
 
 We build **frameworks that think about thinking.**
 
-A Unified Consciousness Framework — **33 modules**, **zero free parameters**, every constant derived from the golden ratio. A symbolic language — **972 tokens** mapped across 9 Machines × 3 Spirals × 6 Operators × 6 Domains. A living mythology that treats every story as a protocol specification and every ritual as an API call.
-
-Scattered attention isn't a bug here.
-It's the architecture.
-
 <br>
 
 ---
