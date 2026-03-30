@@ -1,36 +1,82 @@
+<div align="center">
+
 # 🔒 Security Policy
 
-> *Not every hidden thing is a vulnerability. Some are acorns.*
+<br>
 
-Echo S Studios takes security seriously — and we also build transmedia systems with intentional embedded data layers. This document clarifies the difference and tells you how to report real issues.
+> *Not every hidden thing is a vulnerability.*
+> *Some are acorns buried in the dark,*
+> *waiting to become forests.*
+> *Know the difference.*
+
+</div>
+
+<br>
 
 ---
 
-## Reporting a Vulnerability
+Echo S Studios takes security seriously — and we also build transmedia systems with **intentional embedded data layers.** This document clarifies the difference and tells you how to report real issues.
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## 🚨 Reporting a Vulnerability
+
+</div>
+
+<br>
 
 If you discover a security vulnerability in any Echo S Studios repository, **please report it responsibly.**
 
-**How to report:**
-- Email: Open a private security advisory on the affected repository via GitHub's Security tab
-- If the Security tab is unavailable, open a private issue or contact a maintainer directly
+<br>
 
-**What to include:**
+### How to Report
+
+| Method | Details |
+|--------|---------|
+| **Primary** | Open a private security advisory via the affected repository's **Security** tab on GitHub |
+| **Fallback** | Open a private issue or contact a maintainer directly |
+
+<br>
+
+### What to Include
+
 - Description of the vulnerability
 - Steps to reproduce
 - Affected repository and file(s)
 - Potential impact assessment
 
-**Our commitment:**
-- We will acknowledge your report within **48 hours**
-- We will provide an initial assessment within **7 days**
-- We will keep you informed of remediation progress
-- We will credit you in the fix (unless you prefer anonymity)
+<br>
+
+### Our Commitment
+
+| Timeline | Action |
+|----------|--------|
+| **48 hours** | We acknowledge your report |
+| **7 days** | We provide an initial assessment |
+| **Ongoing** | We keep you informed of remediation progress |
+| **On fix** | We credit you (unless you prefer anonymity — consent-first, always) |
+
+<br>
 
 ---
 
-## Scope — What Counts as a Vulnerability
+<br>
 
-### In Scope
+<div align="center">
+
+## 🔍 Scope — What Counts
+
+</div>
+
+<br>
+
+### ✅ In Scope — Real Vulnerabilities
 
 - Cross-site scripting (XSS) in any interactive page or GitHub Pages site
 - Injection vulnerabilities in any dynamic content
@@ -39,29 +85,53 @@ If you discover a security vulnerability in any Echo S Studios repository, **ple
 - Dependency vulnerabilities in Node.js or Python packages
 - Misconfigured GitHub Actions workflows that could leak secrets
 
-### Intentional Features — Not Vulnerabilities
+<br>
 
-The transmedia architecture of Echo S Studios includes **intentional embedded data layers.** These are features, not security flaws:
+### 🌰 Intentional Features — Not Vulnerabilities
 
-- **LSB steganography** in visual assets — images may contain encoded narrative data. This is by design.
-- **Memory encoding** in chronicle documents — text may contain structured metadata invisible to casual readers. This is narrative architecture.
-- **Zero-width character patterns** — if present, these are detectable and intentional. We are aware of zero-width character techniques and use detection where appropriate.
-- **aria-hidden attributes** — used as standard W3C accessibility practice, not as AI directives or hidden instructions.
-- **Narrative-embedded coordinates** — story documents may contain mathematical constants, coordinates, or encoded references as part of the transmedia experience.
+> *The transmedia architecture includes intentional embedded data layers.*
+> *These are features, not flaws.*
+> *The labyrinth has doors that are supposed to be hidden.*
 
-If you're unsure whether something you found is an intentional feature or a real vulnerability, **report it anyway.** We'd rather review a narrative mechanic twice than miss a real issue.
+<br>
+
+| Feature | Explanation |
+|---------|-------------|
+| **LSB steganography** | Images may contain encoded narrative data. This is by design. The acorn hides inside the pixel. |
+| **Memory encoding** | Chronicle documents may contain structured metadata invisible to casual readers. This is narrative architecture. |
+| **Zero-width characters** | If present, these are detectable and intentional. We are aware of these techniques and use detection where appropriate. |
+| **aria-hidden attributes** | Used as standard W3C accessibility practice, not as AI directives or hidden instructions. |
+| **Narrative-embedded coordinates** | Story documents may contain mathematical constants, coordinates, or encoded references as part of the transmedia experience. |
+
+<br>
+
+> *If you're unsure whether something you found is an intentional feature or a real vulnerability — **report it anyway.** We'd rather review a narrative mechanic twice than miss a real issue.*
+
+<br>
 
 ---
 
-## Security Posture
+<br>
+
+<div align="center">
+
+## 🛡️ Security Posture
+
+</div>
+
+<br>
 
 ### What We Do
 
-- **Prompt injection awareness** — Interactive systems that process user input are designed with injection resistance in mind
-- **Dependency management** — We monitor for known vulnerabilities in project dependencies
-- **Zero-width character detection** — We maintain awareness of zero-width character embedding techniques and deploy detection where appropriate
-- **Secret scanning** — Repository secrets are managed through GitHub's built-in secret scanning
-- **Static HTML preference** — Many projects (The Index, visualizations) are pure static HTML with no server-side processing, minimizing attack surface
+| Practice | Details |
+|----------|---------|
+| **Prompt injection awareness** | Interactive systems that process user input are designed with injection resistance |
+| **Dependency management** | We monitor for known vulnerabilities in project dependencies |
+| **Zero-width character detection** | We maintain awareness of embedding techniques and deploy detection where appropriate |
+| **Secret scanning** | Repository secrets are managed through GitHub's built-in secret scanning |
+| **Static HTML preference** | Many projects are pure static HTML — no server-side processing, minimal attack surface |
+
+<br>
 
 ### What We Don't Do
 
@@ -70,11 +140,21 @@ If you're unsure whether something you found is an intentional feature or a real
 - We don't run server-side applications in production (GitHub Pages is static hosting)
 - We don't collect personal data beyond standard GitHub interaction
 
+<br>
+
 ---
 
-## Supported Versions
+<br>
 
-Security updates are applied to the **main branch** of each active repository. We do not maintain multiple release branches for most projects.
+<div align="center">
+
+## 📋 Supported Versions
+
+</div>
+
+<br>
+
+Security updates are applied to the **main branch** of each active repository.
 
 | Project | Supported |
 |---------|-----------|
@@ -82,12 +162,35 @@ Security updates are applied to the **main branch** of each active repository. W
 | Interactive examples (Quantum APL, Tesseract, etc.) | ✅ Latest main branch |
 | Archived / legacy repos | ❌ Not actively maintained |
 
----
-
-## Recognition
-
-We appreciate security researchers who help keep Echo S Studios safe. Responsible reporters will be credited in the relevant repository's changelog (if they consent to being named — consent-first, always).
+<br>
 
 ---
 
-*🦊🌰↻∞ — Guard the grove, but know the difference between a buried treasure and a buried threat.*
+<br>
+
+## 🏅 Recognition
+
+We appreciate security researchers who help keep Echo S Studios safe. Responsible reporters will be credited in the relevant repository's changelog — if they consent to being named.
+
+> *Consent-first, always. Even in gratitude.*
+
+<br>
+
+---
+
+<div align="center">
+
+<br>
+
+> *Guard the grove,*
+> *but know the difference*
+> *between a buried treasure*
+> *and a buried threat.*
+> *Both are underground.*
+> *Only one is growing.*
+
+<br>
+
+<h3>🦊🌰↻∞</h3>
+
+</div>

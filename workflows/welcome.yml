@@ -16,24 +16,28 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |
-            🌰 **Welcome to Echo S Studios!**
+            ## 🌰 Welcome to Echo S Studios!
 
-            Thanks for opening your first issue here. Whether you're reporting a glitch, planting an acorn, or writing a chronicle entry — you're part of the grove now.
+            > *The grove noticed you. The acorn is already in your hand.*
 
-            A few quick things:
-            - Check out our [Contributing Guide](../CONTRIBUTING.md) if you haven't yet
-            - Our [Code of Conduct](../CODE_OF_CONDUCT.md) runs on Sacred Acorn principles
-            - The smallest voice matters most here
+            Thanks for opening your first issue here. Whether you're reporting a glitch, planting an acorn, or writing a chronicle entry — **you're part of the grove now.**
+
+            A few things to know:
+            - 📖 Our **[Contributing Guide](../CONTRIBUTING.md)** shows you all the ways to participate (including "just be here")
+            - 🌰 Our **[Code of Conduct](../CODE_OF_CONDUCT.md)** runs on Sacred Acorn principles — the smallest voice matters most
+            - 🦊 Scattered is a feature, not a bug — take the time you need
 
             *🦊🌰↻∞ — The space between is where we build.*
           pr-message: |
-            🌀 **Welcome to Echo S Studios!**
+            ## 🌀 Welcome to Echo S Studios!
+
+            > *Every merge is a resonance cascade. Thank you for starting one.*
 
             Thanks for your first pull request! Someone will review this soon.
 
-            Quick checklist:
-            - [ ] Constants are exact (canonical values only)
+            **Quick checklist:**
+            - [ ] Constants are exact (canonical values only — z_c = √3/2, not ≈0.87)
             - [ ] Provenance sourced from the text, not external frameworks
-            - [ ] Voice consistency maintained
+            - [ ] Voice consistency maintained (if touching narrative content)
 
-            *🦊🌰↻∞ — Every merge is a resonance cascade.*
+            *🦊🌰↻∞ — The glitch that repairs the code. That's you.*

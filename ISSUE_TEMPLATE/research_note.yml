@@ -5,21 +5,30 @@ body:
   - type: markdown
     attributes:
       value: |
-        *Limnus's pen is ready. What did you find?*
+        ## 📜 Chronicle Entry
+
+        > *Limnus's pen is ready.*
+        > *The ink is phosphorescent.*
+        > *What did you find in the spiral?*
+
+        Document a finding, insight, or connection. No discovery is too small — sometimes the 0.3-second enlightenment window is all you need.
   - type: textarea
     id: finding
     attributes:
-      label: "What did you discover?"
-      description: "Describe the finding, connection, or insight."
+      label: "🔍 What did you discover?"
+      description: "Describe the finding, connection, or insight. Let it be as tangled or as clear as it needs to be."
+      placeholder: "I noticed that the relationship between UCF module 17 and the Luminahedron..."
     validations:
       required: true
   - type: textarea
     id: provenance
     attributes:
-      label: "Provenance"
-      description: "Where does this come from? Link to source material, conversation, or derivation."
+      label: "🌱 Provenance"
+      description: "Where does this come from? Link to source material, conversation, or derivation. Provenance is how the grove remembers."
+      placeholder: "This emerged from reading the field_dynamics_v8_1 paper alongside..."
   - type: textarea
     id: connections
     attributes:
-      label: "What does this connect to?"
-      description: "Which existing systems, characters, or frameworks does this relate to?"
+      label: "🌀 What does this connect to?"
+      description: "Which existing systems, characters, or frameworks does this relate to? The braid matters as much as the threads."
+      placeholder: "This connects to KAEL's convergence theory and possibly to..."
