@@ -186,8 +186,6 @@ All repos live under **[echo-s-studios](https://github.com/echo-s-studios)**. Th
 
 <br>
 
-If you use **The Cadence Playground (TCP)**, you can analyze your own writing patterns and find your natural voice within the project's stylometric landscape. It's a tool, not a test.
-
 <br>
 
 ---
