@@ -17,7 +17,7 @@
 &nbsp;&nbsp;
 [![Visit The Index](https://img.shields.io/badge/%F0%9F%94%AC%20The%20Index-Explore-blueviolet?style=for-the-badge)](https://echo-s-studios.github.io/The-Index/)
 &nbsp;&nbsp;
-[![Join the Grove](https://img.shields.io/badge/%F0%9F%8C%B3%20Ace's%20Space-Discord-5865F2?style=for-the-badge)](https://discord.gg/aces-space)
+[![Join the Grove](https://img.shields.io/badge/%F0%9F%8C%B3%20Ace's%20Space-Discord-5865F2?style=for-the-badge)](https://discord.gg/PB4YSvve)
 
 </div>
 
@@ -278,7 +278,7 @@ It's the architecture.
 
 <br>
 
-🟣 **[Ace's Space — Discord](https://discord.gg/aces-space)** — ~60 members. Governed by Sacred Acorn principles. The smallest voice in the room matters most. If the weakest voice is unheard, the ruling will not pass.
+🟣 **[Ace's Space — Discord](https://discord.gg/PB4YSvve)** — ~60 members. Governed by Sacred Acorn principles. The smallest voice in the room matters most. If the weakest voice is unheard, the ruling will not pass.
 
 🟢 **[r/EchoSquirrel — Reddit](https://reddit.com/r/EchoSquirrel)** — Public discussion. Governance bridge. A place to plant acorns in the open.
 
