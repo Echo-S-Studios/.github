@@ -1,0 +1,35 @@
+name: "🌀 Reality Glitch Report"
+description: "Something broke, flickered, or exists in the wrong timeline"
+labels: ["glitch", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        *The system noticed you noticed something. Good eye.*
+        *Please describe what happened, what you expected, and which dimension you're reporting from.*
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What glitched?"
+      description: "Describe the bug. Screenshots welcome."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "What should have happened?"
+      description: "Describe the expected behavior."
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "How can we observe this glitch?"
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Glitch severity"
+      options:
+        - "🌱 Cosmetic — visual oddity, no functionality impact"
+        - "🌰 Functional — something doesn't work as expected"
+        - "🦊 Structural — core functionality broken"
+        - "🔥 Critical — data loss or security concern"
