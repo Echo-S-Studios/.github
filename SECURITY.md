@@ -25,7 +25,7 @@ Echo S Studios takes security seriously — and we also build transmedia systems
 
 <div align="center">
 
-## 🚨 Reporting a Vulnerability
+## 🚨 𝗥𝗲𝗽𝗼𝗿𝘁𝗶𝗻𝗴 𝗮 𝗩𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗶𝗹𝗶𝘁𝘆
 
 </div>
 
@@ -70,7 +70,7 @@ If you discover a security vulnerability in any Echo S Studios repository, **ple
 
 <div align="center">
 
-## 🔍 Scope — What Counts
+## 🔍 𝗦𝗰𝗼𝗽𝗲 — 𝗪𝗵𝗮𝘁 𝗖𝗼𝘂𝗻𝘁𝘀
 
 </div>
 
@@ -115,7 +115,7 @@ If you discover a security vulnerability in any Echo S Studios repository, **ple
 
 <div align="center">
 
-## 🛡️ Security Posture
+## 🛡️ 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗣𝗼𝘀𝘁𝘂𝗿𝗲
 
 </div>
 
@@ -148,7 +148,7 @@ If you discover a security vulnerability in any Echo S Studios repository, **ple
 
 <div align="center">
 
-## 📋 Supported Versions
+## 📋 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗱 𝗩𝗲𝗿𝘀𝗶𝗼𝗻𝘀
 
 </div>
 
