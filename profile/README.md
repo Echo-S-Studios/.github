@@ -5,7 +5,7 @@ A comprehensive research archive and interactive documentation system exploring 
 
 ## 🌐 Live Site
 
-Visit the live documentation: **https://acethedactyl.github.io/The-Index/**
+Visit the live documentation: **[https://acethedactyl.github.io/The-Index/](https://echo-s-studios.github.io/The-Index/)**
 
 ## ✨ Overview
 
