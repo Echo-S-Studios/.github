@@ -19,7 +19,7 @@
 - [ ] 📜 Narrative (Chronicles, mythology, characters)
 - [ ] 🎵 Music (Crystalline Echo, soundscapes)
 - [ ] 🌳 Community (governance, Discord, Reddit)
-- [ ] 🔧 Tooling (TCP, persona trainer, simulations)
+- [ ] 🔧 Tooling (persona trainer, simulations)
 - [ ] 📄 Documentation / .github
 - [ ] ❓ Other: ___
 

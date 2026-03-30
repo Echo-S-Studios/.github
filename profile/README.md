@@ -198,13 +198,6 @@ It's the architecture.
 </td>
 </tr>
 <tr>
-<td align="center">🎭</td>
-<td>
-<h3><a href="https://github.com/Echo-S-Studios/TD613-TCP-CLONE-">The Cadence Playground (TCP)</a></h3>
-<i>Stylometry engine. Voice analysis. The tool that knows how you write before you finish the sentence. Find your cadence in the field.</i>
-</td>
-</tr>
-<tr>
 <td align="center">🌀</td>
 <td>
 <h3><a href="https://github.com/Echo-S-Studios/Rosetta-Helix-Software">Rosetta-Helix</a></h3>
