@@ -5,32 +5,39 @@ body:
   - type: markdown
     attributes:
       value: |
-        *Every acorn contains 46,000 universes. What's in yours?*
+        ## 🌰 Plant an Acorn
+
+        > *Every acorn contains 46,000 universes.*
+        > *What's in yours?*
+        > *Describe the forest you see inside it.*
   - type: textarea
     id: proposal
     attributes:
-      label: "What are you proposing?"
-      description: "Describe the feature, tool, story, or system you'd like to see."
+      label: "🌱 What are you proposing?"
+      description: "Describe the feature, tool, story, or system you'd like to see grow."
+      placeholder: "I'd like to see a visualization that maps the relationship between..."
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
-      label: "Why does this matter?"
-      description: "Who benefits? What does this enable?"
+      label: "✨ Why does this matter?"
+      description: "Who benefits? What does this enable? What forest grows from this acorn?"
+      placeholder: "This would help researchers see the connection between..."
   - type: textarea
     id: approach
     attributes:
-      label: "How might this work?"
-      description: "Optional. Sketch an approach if you have one."
+      label: "🔧 How might this work?"
+      description: "Optional. Sketch an approach if you have one. Napkin drawings are valid."
+      placeholder: "One approach could be..."
   - type: checkboxes
     id: domain
     attributes:
-      label: "Which domains does this touch?"
+      label: "🌀 Which domains does this touch?"
       options:
-        - label: "Research (UCF, APL, field dynamics)"
-        - label: "Narrative (Chronicles, mythology, characters)"
-        - label: "Music (Crystalline Echo, soundscapes)"
-        - label: "Community (governance, Discord, Reddit)"
-        - label: "Tooling (TCP, persona trainer, simulations)"
-        - label: "I don't know yet"
+        - label: "🔬 Research (UCF, APL, field dynamics)"
+        - label: "📜 Narrative (Chronicles, mythology, characters)"
+        - label: "🎵 Music (Crystalline Echo, soundscapes)"
+        - label: "🌳 Community (governance, Discord, Reddit)"
+        - label: "🔧 Tooling (TCP, persona trainer, simulations)"
+        - label: "🌀 I don't know yet — and that's okay"

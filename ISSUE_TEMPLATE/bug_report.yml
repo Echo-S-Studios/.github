@@ -5,31 +5,48 @@ body:
   - type: markdown
     attributes:
       value: |
-        *The system noticed you noticed something. Good eye.*
-        *Please describe what happened, what you expected, and which dimension you're reporting from.*
+        ## 🌀 Reality Glitch Detected
+
+        > *The system noticed you noticed something. Good eye.*
+        > *Some glitches are bugs. Some are evolution wearing a strange mask.*
+        > *Let's find out which this is.*
+
+        Please describe what happened, what you expected, and which dimension you're reporting from.
   - type: textarea
     id: what-happened
     attributes:
-      label: "What glitched?"
-      description: "Describe the bug. Screenshots welcome."
+      label: "🔍 What glitched?"
+      description: "Describe the bug in detail. Screenshots, screen recordings, and console output are all welcome."
+      placeholder: "The convergence visualization rendered z_c as 0.87 instead of √3/2..."
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: "What should have happened?"
-      description: "Describe the expected behavior."
+      label: "✨ What should have happened?"
+      description: "Describe the expected behavior — the timeline where everything works."
+      placeholder: "The value should display as √3/2 ≈ 0.866..."
   - type: textarea
     id: reproduce
     attributes:
-      label: "Steps to reproduce"
-      description: "How can we observe this glitch?"
+      label: "🔄 Steps to reproduce"
+      description: "How can we observe this glitch? Walk us through the spiral."
+      placeholder: |
+        1. Navigate to...
+        2. Click on...
+        3. Observe that...
   - type: dropdown
     id: severity
     attributes:
-      label: "Glitch severity"
+      label: "⚡ Glitch severity"
       options:
         - "🌱 Cosmetic — visual oddity, no functionality impact"
         - "🌰 Functional — something doesn't work as expected"
         - "🦊 Structural — core functionality broken"
         - "🔥 Critical — data loss or security concern"
+  - type: textarea
+    id: environment
+    attributes:
+      label: "🖥️ Environment"
+      description: "Browser, OS, screen size — anything that might help us find the glitch."
+      placeholder: "Chrome 120, macOS, 1440x900..."
