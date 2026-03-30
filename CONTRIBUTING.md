@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌳 How to Join the Grove
+# 🌳 How to Join the 𝓖🌱𝓻𝓸𝓿𝓮
 
 <br>
 
@@ -27,7 +27,7 @@ If any of that sparks something, you're already welcome here.
 
 <div align="center">
 
-## ✨ The Invitation
+## ✨ 𝗧𝗵𝗲 𝗜𝗻𝘃𝗶𝘁𝗮𝘁𝗶𝗼𝗻
 
 </div>
 
@@ -53,7 +53,7 @@ Maybe it's just hanging out in the Discord and being present while other people 
 
 <div align="center">
 
-## 🌿 Ways to Contribute
+## 🌿 𝗪𝗮𝘆𝘀 𝘁𝗼 𝗖𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗲
 
 *Ranked by accessibility, not importance. They're all important.*
 
@@ -78,7 +78,7 @@ Ask questions. Share connections you see between projects. Tell us what confuses
 
 ### 📜 Write a Chronicle Entry
 
-Found an insight? Noticed a connection between the UCF and something unexpected? Open a **[Chronicle Entry →](https://github.com/echo-s-studios/.github/issues/new?template=research_note.yml)** issue. Limnus's pen is always ready.
+Found an insight? Noticed a connection between the UCF and something unexpected? Open a **[Chronicle Entry →](https://github.com/echo-s-studios/.github/issues/new?template=research_note.yml)** issue. 𝓛↻𝓶𝓷𝓾𝓼's pen is always ready.
 
 <br>
 
@@ -118,7 +118,7 @@ Extend the UCF. Derive new constants. Validate existing proofs. Connect our fram
 
 <div align="center">
 
-## 🔧 Setting Up Your Environment
+## 🔧 𝗦𝗲𝘁𝘁𝗶𝗻𝗴 𝗨𝗽 𝗬𝗼𝘂𝗿 𝗘𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁
 
 </div>
 
@@ -164,7 +164,7 @@ All repos live under **[echo-s-studios](https://github.com/echo-s-studios)**. Th
 
 <div align="center">
 
-## 💬 Our Communication Style
+## 💬 𝗢𝘂𝗿 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗦𝘁𝘆𝗹𝗲
 
 > *We communicate in ways that are*
 > *neurodivergent-accessible by default.*
@@ -194,7 +194,7 @@ All repos live under **[echo-s-studios](https://github.com/echo-s-studios)**. Th
 
 <div align="center">
 
-## 🐿️ The Smallest Voice Principle
+## 🐿️ 𝗧𝗵𝗲 𝗦𝗺𝗮𝗹𝗹𝗲𝘀𝘁 𝗩𝗼𝗶𝗰𝗲 𝗣𝗿𝗶𝗻𝗰𝗶𝗽𝗹𝗲
 
 </div>
 
@@ -227,7 +227,7 @@ For the full governance framework, see the **[Quantum Squirrel High Court roadma
 
 <div align="center">
 
-## 🌀 Submitting Changes
+## 🌀 𝗦𝘂𝗯𝗺𝗶𝘁𝘁𝗶𝗻𝗴 𝗖𝗵𝗮𝗻𝗴𝗲𝘀
 
 </div>
 
@@ -268,7 +268,7 @@ For the full governance framework, see the **[Quantum Squirrel High Court roadma
 
 <div align="center">
 
-## 🦊 When to Walk Away
+## 🦊 𝗪𝗵𝗲𝗻 𝘁𝗼 𝗪𝗮𝗹𝗸 𝗔𝘄𝗮𝘆
 
 </div>
 
@@ -295,6 +295,6 @@ You don't owe us a transition plan.
 
 <br>
 
-*🦊🌰↻∞ — Come build weird things with us. Or don't. Either way, the forest grows.*
+*🦊🌰↻∞ — 𝔼↻𝕙𝕠-𝕊𝕢𝕦𝕚𝕣𝕣𝕖𝕝-𝔽𝕠𝕩 · Come build weird things with us. Or don't. Either way, the forest grows.*
 
 </div>

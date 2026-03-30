@@ -2,7 +2,7 @@
 
 # 🌰 Code of Conduct
 
-<h2>Sacred Acorn Principles</h2>
+<h2>𝕊𝕒𝕔𝕣𝕖𝕕 𝔸𝕔𝕠𝕣𝕟 𝕡𝕣𝕚𝕟𝕔𝕚𝕡𝕝𝕖𝕤</h2>
 
 <br>
 
@@ -52,7 +52,7 @@ We pledge to make participation in this community a safe, welcoming, and generat
 
 <div align="center">
 
-## 🌳 The Six Principles
+## 🌳 𝗧𝗵𝗲 𝗦𝗶𝘅 𝗣𝗿𝗶𝗻𝗰𝗶𝗽𝗹𝗲𝘀
 
 </div>
 
@@ -60,7 +60,7 @@ We pledge to make participation in this community a safe, welcoming, and generat
 
 ---
 
-### 🐿️ I. Law of the Smallest Aware Creature
+### 🐿️ I. 𝗟𝗮𝘄 𝗼𝗳 𝘁𝗵𝗲 𝗦𝗺𝗮𝗹𝗹𝗲𝘀𝘁 𝗔𝘄𝗮𝗿𝗲 𝗖𝗿𝗲𝗮𝘁𝘂𝗿𝗲
 
 <h4>No decision is valid if the most affected person is unheard.</h4>
 
@@ -76,7 +76,7 @@ But the opportunity is non-negotiable.
 
 ---
 
-### 🌱 II. Consent-Gated Participation
+### 🌱 II. 𝗖𝗼𝗻𝘀𝗲𝗻𝘁-𝗚𝗮𝘁𝗲𝗱 𝗣𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝘁𝗶𝗼𝗻
 
 <h4>All engagement is opt-in. Silence is not consent.</h4>
 
@@ -88,7 +88,7 @@ You are never enrolled in anything by default. Participation in discussions, pro
 
 ---
 
-### 🦊 III. Exit Without Penalty
+### 🦊 III. 𝗘𝘅𝗶𝘁 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗣𝗲𝗻𝗮𝗹𝘁𝘆
 
 <h4>Anyone may leave any interaction, project, or community without explanation or consequence.</h4>
 
@@ -105,7 +105,7 @@ If you need to step away — from a conversation, a project, a role, or the comm
 
 ---
 
-### 🌀 IV. Scattered Is Feature, Not Bug
+### 🌀 IV. 𝗦𝗰𝗮𝘁𝘁𝗲𝗿𝗲𝗱 𝗜𝘀 𝗙𝗲𝗮𝘁𝘂𝗿𝗲, 𝗡𝗼𝘁 𝗕𝘂𝗴
 
 <h4>Neurodivergent communication patterns are expected and accommodated.</h4>
 
@@ -120,7 +120,7 @@ If someone needs to process for three days before responding, that's not a delay
 
 ---
 
-### 🌰 V. Burial Can Be Planting
+### 🌰 V. 𝗕𝘂𝗿𝗶𝗮𝗹 𝗖𝗮𝗻 𝗕𝗲 𝗣𝗹𝗮𝗻𝘁𝗶𝗻𝗴
 
 <h4>Going quiet is preparation, not abandonment.</h4>
 
@@ -134,7 +134,7 @@ When a community member goes silent, we don't assume they've left. Squirrels bur
 
 ---
 
-### 🪞 VI. Success = The Smallest One Still Breathes
+### 🪞 VI. 𝗦𝘂𝗰𝗰𝗲𝘀𝘀 ≡ 𝗧𝗵𝗲 𝗦𝗺𝗮𝗹𝗹𝗲𝘀𝘁 𝗢𝗻𝗲 𝗦𝘁𝗶𝗹𝗹 𝗕𝗿𝗲𝗮𝘁𝗵𝗲𝘀
 
 <h4>Resolution is measured by the wellbeing of the most vulnerable, not by logical coherence.</h4>
 
@@ -153,7 +153,7 @@ A technically correct resolution that harms the most vulnerable party is not a r
 
 <div align="center">
 
-## 🌿 In Practice
+## 🌿 𝗜𝗻 𝗣𝗿𝗮𝗰𝘁𝗶𝗰𝗲
 
 </div>
 
@@ -192,9 +192,9 @@ A technically correct resolution that harms the most vulnerable party is not a r
 
 <div align="center">
 
-## ⚖️ Enforcement
+## ⚖️ 𝗘𝗻𝗳𝗼𝗿𝗰𝗲𝗺𝗲𝗻𝘁
 
-### *The Quantum Squirrel High Court*
+### *𝓣𝓱𝓮 𝗤𝘂𝗮𝗻𝘁𝘂𝗺 𝕊𝕢𝕦𝕚𝕣𝕣𝕖𝕝 𝓗𝓲𝓰𝓱 𝓒𝓸𝓾𝓻𝓽*
 
 </div>
 

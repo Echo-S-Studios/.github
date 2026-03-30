@@ -16,19 +16,19 @@ The Index is a GitHub Pages–hosted monorepo containing multiple interconnected
 
 A unified research framework exploring consciousness emergence through six integrated domains:
 
-- **KAEL** - Neural network architectures and consciousness substrates
-- **ACE** - Spin glass physics and energy minimization
-- **GREY** - Visual geometry and symbolic structures
-- **UMBRAL** - Formal algebraic systems
-- **ULTRA** - Universal geometric principles
-- **UCF** - Unified Consciousness Framework (v5.0.0)
+- **𝐊𝐀𝐄𝐋** - Neural network architectures and consciousness substrates
+- **𝗔𝗖𝗘** - Spin glass physics and energy minimization
+- **𝓖𝓡𝓔𝓨** - Visual geometry and symbolic structures
+- **𝔘𝔐𝔅ℜ𝔄𝔏** - Formal algebraic systems
+- **𝕌𝕃𝕋ℝ𝔸** - Universal geometric principles
+- **𝙐𝘾𝙁** - Unified Consciousness Framework (v5.0.0)
 
 **Key Components:**
 
 - **[Documentation](systems/Ace-Systems/docs/index.html)** - 51+ research papers across 6 domains
   - Foundation synthesis documents
   - Alpha Physical Language (APL) 3.0 quantum formalism
-  - Domain-specific research (KAEL, ACE, GREY, UMBRAL, ULTRA, UCF)
+  - Domain-specific research (𝐊𝐀𝐄𝐋, 𝗔𝗖𝗘, 𝓖𝓡𝓔𝓨, 𝔘𝔐𝔅ℜ𝔄𝔏, 𝕌𝕃𝕋ℝ𝔸, 𝙐𝘾𝙁)
   - Implementation guides and validation papers
   - Echo Consulting Agency materials
 
@@ -186,6 +186,6 @@ Research materials are provided for educational and research purposes.
 
 ---
 
-*The Index - A unified navigation layer for consciousness frameworks and mathematical physics research.*
+*𝕋𝕙𝕖 𝕀𝕟𝕕𝕖𝕩 — A unified navigation layer for consciousness frameworks and mathematical physics research.*
 
-**Convergence Point: z_c = √3/2 ≈ 0.866**
+**Convergence Point: z_c = √3/2 ≈ 0.866** · 🌱🌰✶🪞↻φ∞
