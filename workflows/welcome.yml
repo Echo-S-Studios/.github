@@ -1,0 +1,39 @@
+name: Welcome New Contributors
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            🌰 **Welcome to Echo S Studios!**
+
+            Thanks for opening your first issue here. Whether you're reporting a glitch, planting an acorn, or writing a chronicle entry — you're part of the grove now.
+
+            A few quick things:
+            - Check out our [Contributing Guide](../CONTRIBUTING.md) if you haven't yet
+            - Our [Code of Conduct](../CODE_OF_CONDUCT.md) runs on Sacred Acorn principles
+            - The smallest voice matters most here
+
+            *🦊🌰↻∞ — The space between is where we build.*
+          pr-message: |
+            🌀 **Welcome to Echo S Studios!**
+
+            Thanks for your first pull request! Someone will review this soon.
+
+            Quick checklist:
+            - [ ] Constants are exact (canonical values only)
+            - [ ] Provenance sourced from the text, not external frameworks
+            - [ ] Voice consistency maintained
+
+            *🦊🌰↻∞ — Every merge is a resonance cascade.*

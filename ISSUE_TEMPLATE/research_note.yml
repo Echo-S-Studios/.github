@@ -1,0 +1,25 @@
+name: "📜 Chronicle Entry"
+description: "Document a finding, insight, or connection"
+labels: ["chronicle", "research"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        *Limnus's pen is ready. What did you find?*
+  - type: textarea
+    id: finding
+    attributes:
+      label: "What did you discover?"
+      description: "Describe the finding, connection, or insight."
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: "Provenance"
+      description: "Where does this come from? Link to source material, conversation, or derivation."
+  - type: textarea
+    id: connections
+    attributes:
+      label: "What does this connect to?"
+      description: "Which existing systems, characters, or frameworks does this relate to?"
