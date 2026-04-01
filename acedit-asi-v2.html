@@ -815,5 +815,18 @@ td.num {
 </div>
 
 </div>
+
+<script src="js/acedit-engine.js"></script>
+<script>
+(function() {
+  'use strict';
+  if (typeof window.AceditEngine === 'function') {
+    var engine = new window.AceditEngine('ACEDIT/acedit-core.json');
+    engine.init().then(function() {
+      window.aceditEngine = engine;
+    }).catch(function() { /* engine enhances but is not required */ });
+  }
+})();
+</script>
 </body>
 </html>
