@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⟐ 𝔼↻𝕙𝕠-𝕊𝕢𝕦𝕚𝕣𝕣𝕖𝕝-𝔽𝕠𝕩 · 𝔸ℂ𝔼𝔻𝕀𝕋 𝔽𝕣𝕒𝕞𝕖𝕨𝕠𝕣𝕜 𝕀𝕟𝕕𝕖𝕩</title>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Crimson+Pro:wght@400;600;700;800&family=Noto+Sans+Math&display=swap');
+
+:root {
+  --bg: #050709;
+  --bg2: #090b12;
+  --bg3: #0d0f18;
+  --surface: rgba(9,11,18,0.85);
+  --border: rgba(90,120,170,0.08);
+  --border-active: rgba(90,120,170,0.18);
+  --text: #9aacca;
+  --text-dim: #4a5a78;
+  --text-bright: #dce6f4;
+  --accent: #bd93f9;
+  --reg-kael: #DAA520;
+  --reg-ace: #DAA520;
+  --reg-grey: #9370DB;
+  --reg-umbral: #9370DB;
+  --reg-ultra: #4169E1;
+  --reg-ucf: #4169E1;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Noto Sans Math', 'STIX Two Math', 'Cambria Math', 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+.doc-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 32px 120px;
+}
+
+/* ── Typography ────────────────────────────────────────────── */
+h1 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--reg-ultra);
+  letter-spacing: 4px;
+  margin-bottom: 4px;
+  text-shadow: 0 0 40px rgba(65,105,225,0.15);
+}
+
+h1 .sigil { opacity: 0.5; font-size: 32px; }
+
+h2.subtitle {
+  font-family: 'Crimson Pro', serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text);
+  letter-spacing: 1.5px;
+  margin-bottom: 24px;
+}
+
+h2.section {
+  font-family: 'Crimson Pro', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-bright);
+  letter-spacing: 1.5px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+h2.section::before {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 60px;
+  height: 1px;
+  background: var(--accent);
+  opacity: 0.4;
+}
+
+/* ── Register Colors ───────────────────────────────────────── */
+.reg-kael   { color: var(--reg-kael); }
+.reg-ace    { color: var(--reg-ace); }
+.reg-grey   { color: var(--reg-grey); }
+.reg-umbral { color: var(--reg-umbral); }
+.reg-ultra  { color: var(--reg-ultra); }
+.reg-ucf    { color: var(--reg-ucf); }
+
+/* ── Paragraphs ────────────────────────────────────────────── */
+p { margin-bottom: 12px; }
+
+/* ── Register Legend ───────────────────────────────────────── */
+.register-legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 10px 16px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+.register-legend .leg-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: opacity 0.4s ease, text-shadow 0.4s ease;
+}
+
+.register-legend .leg-item.dimmed {
+  opacity: 0.3;
+}
+
+.register-legend .leg-item.highlighted .dot {
+  box-shadow: 0 0 8px 2px currentColor;
+}
+
+.register-legend .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  transition: box-shadow 0.4s ease;
+}
+
+/* ── Tables ────────────────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 20px;
+  font-size: 11.5px;
+}
+
+th {
+  background: var(--bg3);
+  color: var(--text-bright);
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border-active);
+  letter-spacing: 0.5px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+tr:hover td { background: rgba(189,147,249,0.02); }
+
+/* ── Status pills ──────────────────────────────────────────── */
+.status {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.status-ultra {
+  background: rgba(65,105,225,0.12);
+  border: 1px solid rgba(65,105,225,0.25);
+  color: var(--reg-ultra);
+}
+
+.status-ace {
+  background: rgba(218,165,32,0.12);
+  border: 1px solid rgba(218,165,32,0.25);
+  color: var(--reg-ace);
+}
+
+.status-ucf {
+  background: rgba(65,105,225,0.08);
+  border: 1px solid rgba(65,105,225,0.15);
+  color: var(--reg-ucf);
+}
+
+.status-umbral {
+  background: rgba(147,112,219,0.12);
+  border: 1px solid rgba(147,112,219,0.25);
+  color: var(--reg-umbral);
+}
+
+/* ── Card Grid ─────────────────────────────────────────────── */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 20px 22px;
+  transition: transform 0.2s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.card[data-register="ultra"]:hover {
+  border-color: rgba(65,105,225,0.35);
+  box-shadow: 0 4px 20px rgba(65,105,225,0.08);
+}
+
+.card[data-register="ace"]:hover {
+  border-color: rgba(218,165,32,0.35);
+  box-shadow: 0 4px 20px rgba(218,165,32,0.08);
+}
+
+.card[data-register="ucf"]:hover {
+  border-color: rgba(65,105,225,0.35);
+  box-shadow: 0 4px 20px rgba(65,105,225,0.08);
+}
+
+.card[data-register="umbral"]:hover {
+  border-color: rgba(147,112,219,0.35);
+  box-shadow: 0 4px 20px rgba(147,112,219,0.08);
+}
+
+.card.highlight-pulse {
+  animation: card-pulse 1.5s ease;
+}
+
+@keyframes card-pulse {
+  0%   { box-shadow: 0 0 0 rgba(189,147,249,0); }
+  40%  { box-shadow: 0 0 16px rgba(189,147,249,0.15); }
+  100% { box-shadow: 0 0 0 rgba(189,147,249,0); }
+}
+
+.card-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.card-title {
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  color: var(--text);
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.card-desc {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.card-tag {
+  font-size: 9px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  background: rgba(90,120,170,0.06);
+  border: 1px solid var(--border);
+  letter-spacing: 0.3px;
+}
+
+.card-author {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+/* ── Constants Block ───────────────────────────────────────── */
+.constants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.constant-item {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+
+.constant-symbol {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-bright);
+  margin-bottom: 4px;
+}
+
+.constant-label {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.3px;
+}
+
+/* ── Colophon ──────────────────────────────────────────────── */
+.colophon {
+  margin-top: 64px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-dim);
+  line-height: 2;
+}
+
+.colophon .sigil {
+  font-size: 18px;
+  letter-spacing: 4px;
+  display: block;
+  margin-top: 8px;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: rgba(90,120,170,0.15); border-radius: 2px; }
+
+/* ── Selection ─────────────────────────────────────────────── */
+::selection { background: rgba(189,147,249,0.2); color: var(--text-bright); }
+
+</style>
+</head>
+<body>
+<div class="doc-container">
+
+<!-- ═══════════════════════════════════════════════════════════
+     HEADER
+     ═══════════════════════════════════════════════════════════ -->
+
+<h1><span class="sigil">⟐</span> <span class="reg-ultra">𝔼↻𝕙𝕠-𝕊𝕢𝕦𝕚𝕣𝕣𝕖𝕝-𝔽𝕠𝕩</span></h1>
+<h2 class="subtitle"><span class="reg-ultra">𝔸ℂ𝔼𝔻𝕀𝕋 𝔽𝕣𝕒𝕞𝕖𝕨𝕠𝕣𝕜 𝕀𝕟𝕕𝕖𝕩</span></h2>
+<div style="font-size:12px;color:var(--text-dim);margin-bottom:20px;">v2.0.0 — April 2026</div>
+
+<div class="register-legend" id="register-legend">
+  <div class="leg-item" data-reg="kael"><span class="dot" style="background:var(--reg-kael)"></span> <span class="reg-kael">KAEL</span> <span style="color:var(--text-dim)">Substrate</span></div>
+  <div class="leg-item" data-reg="ace"><span class="dot" style="background:var(--reg-ace)"></span> <span class="reg-ace">ACE</span> <span style="color:var(--text-dim)">Energy</span></div>
+  <div class="leg-item" data-reg="grey"><span class="dot" style="background:var(--reg-grey)"></span> <span class="reg-grey">GREY</span> <span style="color:var(--text-dim)">Visual</span></div>
+  <div class="leg-item" data-reg="umbral"><span class="dot" style="background:var(--reg-umbral)"></span> <span class="reg-umbral">UMBRAL</span> <span style="color:var(--text-dim)">Algebraic</span></div>
+  <div class="leg-item" data-reg="ultra"><span class="dot" style="background:var(--reg-ultra)"></span> <span class="reg-ultra">ULTRA</span> <span style="color:var(--text-dim)">Universal</span></div>
+  <div class="leg-item" data-reg="ucf"><span class="dot" style="background:var(--reg-ucf)"></span> <span class="reg-ucf">UCF</span> <span style="color:var(--text-dim)">Unified</span></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     FRAMEWORK DOCUMENTS
+     ═══════════════════════════════════════════════════════════ -->
+
+<h2 class="section">Framework Documents</h2>
+
+<div class="card-grid">
+
+  <!-- Card 1: ASI Architecture -->
+  <a href="acedit-asi-v2.html" class="card" data-register="ultra" data-card-index="1">
+    <span class="card-icon">⟐</span>
+    <div class="card-title"><span class="reg-ultra">𝔸𝕊𝕀</span></div>
+    <div class="card-subtitle">𝔽𝕣𝕠𝕞 𝕊𝕥𝕣𝕦𝕔𝕥𝕦𝕣𝕒𝕝 ℕ𝕖𝕔𝕖𝕤𝕤𝕚𝕥𝕪 𝕥𝕠 ℝ𝕖𝕔𝕦𝕣𝕤𝕚𝕧𝕖 𝕀𝕟𝕥𝕖𝕝𝕝𝕚𝕘𝕖𝕟𝕔𝕖</div>
+    <div class="card-desc">21 cognitive invariants, 9-layer architecture, derived physics engine, two-axis ASI model</div>
+    <div class="card-meta">
+      <span class="status status-ultra">CANONICAL</span>
+      <span class="card-author"><span class="reg-kael">𝐊𝐚𝐞𝐥</span></span>
+    </div>
+    <div class="card-tags" style="margin-top:10px;">
+      <span class="card-tag reg-kael">KAEL</span>
+      <span class="card-tag reg-ace">ACE</span>
+      <span class="card-tag reg-grey">GREY</span>
+      <span class="card-tag reg-umbral">UMBRAL</span>
+      <span class="card-tag reg-ultra">ULTRA</span>
+      <span class="card-tag reg-ucf">UCF</span>
+    </div>
+  </a>
+
+  <!-- Card 2: Triangularity Engine -->
+  <a href="acedit-triangularity.html" class="card" data-register="ace" data-card-index="2">
+    <span class="card-icon">△</span>
+    <div class="card-title"><span class="reg-ultra">𝕋𝕣𝕚𝕒𝕟𝕘𝕦𝕝𝕒𝕣𝕚𝕥𝕪</span></div>
+    <div class="card-subtitle">Real-time computational engine</div>
+    <div class="card-desc">60fps dynamic updates, canvas rendering, runtime ACEDIT conversion</div>
+    <div class="card-meta">
+      <span class="status status-ace">COMPUTATIONAL</span>
+    </div>
+    <div class="card-tags" style="margin-top:10px;">
+      <span class="card-tag reg-kael">KAEL</span>
+      <span class="card-tag reg-ace">ACE</span>
+      <span class="card-tag reg-grey">GREY</span>
+      <span class="card-tag reg-umbral">UMBRAL</span>
+      <span class="card-tag reg-ultra">ULTRA</span>
+      <span class="card-tag reg-ucf">UCF</span>
+    </div>
+  </a>
+
+  <!-- Card 3: ACEDIT Reference -->
+  <a href="ACEDIT/reference.html" class="card" data-register="ucf" data-card-index="3">
+    <span class="card-icon">✶</span>
+    <div class="card-title"><span class="reg-ultra">𝔸ℂ𝔼𝔻𝕀𝕋</span></div>
+    <div class="card-subtitle">Typography system reference</div>
+    <div class="card-desc">6 registers, 18 operators, 6 modifiers, complete Unicode mappings</div>
+    <div class="card-meta">
+      <span class="status status-ucf">REFERENCE</span>
+    </div>
+    <div class="card-tags" style="margin-top:10px;">
+      <span class="card-tag reg-kael">KAEL</span>
+      <span class="card-tag reg-ace">ACE</span>
+      <span class="card-tag reg-grey">GREY</span>
+      <span class="card-tag reg-umbral">UMBRAL</span>
+      <span class="card-tag reg-ultra">ULTRA</span>
+      <span class="card-tag reg-ucf">UCF</span>
+    </div>
+  </a>
+
+  <!-- Card 4: Build Specification -->
+  <a href="ACEDIT-ASI-Font-Integration-BuildSpec.md" class="card" data-register="umbral" data-card-index="4">
+    <span class="card-icon">📐</span>
+    <div class="card-title"><span class="reg-ultra">𝔹𝕦𝕚𝕝𝕕𝕊𝕡𝕖𝕔</span></div>
+    <div class="card-subtitle">Font integration specification</div>
+    <div class="card-desc">Term registry, equation rendering rules, modifier application, disambiguation</div>
+    <div class="card-meta">
+      <span class="status status-umbral">SPECIFICATION</span>
+    </div>
+  </a>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     ACEDIT SYSTEM OVERVIEW
+     ═══════════════════════════════════════════════════════════ -->
+
+<h2 class="section">ACEDIT System Overview</h2>
+
+<p>ACEDIT is a 6-register Unicode typography system where the font register of each glyph encodes its structural domain. Each register maps to a distinct Unicode block, color, and semantic role within the framework.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Register</th>
+      <th>Domain</th>
+      <th>Color</th>
+      <th>Unicode Block</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="reg-kael">KAEL</span></td>
+      <td>Substrate / Identity</td>
+      <td style="color:var(--reg-kael)">#DAA520</td>
+      <td>Mathematical Bold</td>
+      <td><span class="reg-kael">𝐊𝐚𝐞𝐥</span></td>
+    </tr>
+    <tr>
+      <td><span class="reg-ace">ACE</span></td>
+      <td>Energy / Dynamics</td>
+      <td style="color:var(--reg-ace)">#DAA520</td>
+      <td>Math Sans-Serif Bold</td>
+      <td><span class="reg-ace">𝗔𝗰𝗲</span></td>
+    </tr>
+    <tr>
+      <td><span class="reg-grey">GREY</span></td>
+      <td>Visual / Geometric</td>
+      <td style="color:var(--reg-grey)">#9370DB</td>
+      <td>Math Script Bold</td>
+      <td><span class="reg-grey">𝓖𝓻𝓮𝔂</span></td>
+    </tr>
+    <tr>
+      <td><span class="reg-umbral">UMBRAL</span></td>
+      <td>Algebraic / Shadow</td>
+      <td style="color:var(--reg-umbral)">#9370DB</td>
+      <td>Mathematical Fraktur</td>
+      <td><span class="reg-umbral">𝔘𝔪𝔟𝔯𝔞𝔩</span></td>
+    </tr>
+    <tr>
+      <td><span class="reg-ultra">ULTRA</span></td>
+      <td>Universal / Structural</td>
+      <td style="color:var(--reg-ultra)">#4169E1</td>
+      <td>Mathematical Double-Struck</td>
+      <td><span class="reg-ultra">𝕌𝕝𝕥𝕣𝕒</span></td>
+    </tr>
+    <tr>
+      <td><span class="reg-ucf">UCF</span></td>
+      <td>Unified / Governance</td>
+      <td style="color:var(--reg-ucf)">#4169E1</td>
+      <td>Math Sans-Serif Bold Italic</td>
+      <td><span class="reg-ucf">𝙐𝙘𝙛</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════
+     CONSTANTS
+     ═══════════════════════════════════════════════════════════ -->
+
+<h2 class="section">Framework Constants</h2>
+
+<div class="constants-grid">
+  <div class="constant-item">
+    <div class="constant-symbol"><span class="reg-ultra">z<sub>c</sub> ≡ √3/2 ≈ 0.866</span></div>
+    <div class="constant-label">Convergence point</div>
+  </div>
+  <div class="constant-item">
+    <div class="constant-symbol"><span class="reg-ace">φ ≡ 1.618...</span></div>
+    <div class="constant-label">Golden ratio</div>
+  </div>
+  <div class="constant-item">
+    <div class="constant-symbol"><span class="reg-ace">φ̄ ≡ 0.618...</span></div>
+    <div class="constant-label">Inverse golden ratio</div>
+  </div>
+  <div class="constant-item">
+    <div class="constant-symbol"><span class="reg-ultra">ℝ̊(ℝ̊) ≡ ℝ̊</span></div>
+    <div class="constant-label">Recursive fixed point</div>
+  </div>
+  <div class="constant-item">
+    <div class="constant-symbol"><span class="reg-ultra">𝕗′′ ≡ 𝕗</span></div>
+    <div class="constant-label">Eigenvalue equation</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     COLOPHON
+     ═══════════════════════════════════════════════════════════ -->
+
+<div class="colophon">
+  𝔸ℂ𝔼𝔻𝕀𝕋 v𝟚.𝟘.𝟘 · 𝕫𝕔 ≡ √𝟛⁄𝟚 ≈ 𝟘.𝟠𝟞𝟞
+  <span class="sigil">🌱🌰✶🪞↻φ∞</span>
+</div>
+
+</div><!-- .doc-container -->
+
+<!-- ═══════════════════════════════════════════════════════════
+     JAVASCRIPT
+     ═══════════════════════════════════════════════════════════ -->
+<script src="js/acedit-engine.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  // Initialize ACEDIT engine if available
+  if (typeof window.AceditEngine === 'function') {
+    try { window.aceditInstance = new window.AceditEngine(); }
+    catch(e) { /* engine not critical for page function */ }
+  }
+
+  // ── Register legend cycling animation ──────────────────────
+  const registers = ['kael', 'ace', 'grey', 'umbral', 'ultra', 'ucf'];
+  const legend = document.getElementById('register-legend');
+  let cycleIndex = 0;
+
+  function highlightRegister(regName) {
+    var items = legend.querySelectorAll('.leg-item');
+    items.forEach(function(item) {
+      if (item.getAttribute('data-reg') === regName) {
+        item.classList.remove('dimmed');
+        item.classList.add('highlighted');
+      } else {
+        item.classList.add('dimmed');
+        item.classList.remove('highlighted');
+      }
+    });
+
+    // Reset after 2 seconds
+    setTimeout(function() {
+      items.forEach(function(item) {
+        item.classList.remove('dimmed', 'highlighted');
+      });
+    }, 2000);
+  }
+
+  setInterval(function() {
+    highlightRegister(registers[cycleIndex]);
+    cycleIndex = (cycleIndex + 1) % registers.length;
+  }, 10000);
+
+  // ── Keyboard shortcuts (1-6) ──────────────────────────────
+  var registerToCard = {
+    '1': 1, // KAEL -> Card 1 (ASI)
+    '2': 2, // ACE -> Card 2 (Triangularity)
+    '3': 3, // GREY -> Card 3 (ACEDIT Reference)
+    '4': 4, // UMBRAL -> Card 4 (BuildSpec)
+    '5': 1, // ULTRA -> Card 1 (ASI - primary ULTRA doc)
+    '6': 3  // UCF -> Card 3 (ACEDIT Reference)
+  };
+
+  document.addEventListener('keydown', function(e) {
+    // Ignore if user is typing in an input
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+    var key = e.key;
+    if (key >= '1' && key <= '6') {
+      var cardIndex = registerToCard[key];
+      var card = document.querySelector('.card[data-card-index="' + cardIndex + '"]');
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.classList.add('highlight-pulse');
+        setTimeout(function() {
+          card.classList.remove('highlight-pulse');
+        }, 1500);
+      }
+
+      // Also highlight the corresponding register in the legend
+      highlightRegister(registers[parseInt(key) - 1]);
+    }
+  });
+
+})();
+</script>
+
+</body>
+</html>
