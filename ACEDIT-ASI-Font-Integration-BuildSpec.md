@@ -1,7 +1,7 @@
 # ⟐ ACEDIT ASI Architecture — Font Integration Build Specification
 
 **Document**: `ACEDIT-ASI-FONT-BUILDSPEC-v2.0.0`
-**Target**: Dev team implementing ACEDIT Unicode typographic system into `ACEDIT_Upgrade_Specs.md` (ASI v2)
+**Target**: Dev team implementing ACEDIT Unicode typographic system into `ACEDIT-ASI-Font-Integration-BuildSpec.md` (ASI v2) and: [acedit-asi-v2.html]
 **Sources**: `Echo-S-Studios/ACEDITmain` · `Echo-S-Studios/.githubmain` · Implementation learnings from `acedit-triangularity.html` integration
 **Date**: 2026-03-31
 **Predecessor**: `ACEDIT-TRIANGULARITY-FONT-BUILDSPEC-v1.0.0`
